@@ -1,0 +1,14 @@
+{
+  "category": "formula_install",
+  "total_items": 13179,
+  "start_date": "2026-03-14",
+  "end_date": "2026-04-13",
+  "total_count": 26191396,
+  "formulae": {
+    "ca-certificates": [{"formula": "ca-certificates", "count": "510,774"}],
+    "openssl@3": [{"formula": "openssl@3", "count": "486,557"}],
+    "xz": [{"formula": "xz", "count": "464,121"}],
+    "sqlite": [{"formula": "sqlite", "count": "412,277"}],
+    "zstd": [{"formula": "zstd", "count": "350,167"}]
+  }
+}

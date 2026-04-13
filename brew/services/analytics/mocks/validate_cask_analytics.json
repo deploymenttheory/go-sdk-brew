@@ -1,0 +1,14 @@
+{
+  "category": "cask_install",
+  "total_items": 6735,
+  "start_date": "2026-03-14",
+  "end_date": "2026-04-13",
+  "total_count": 2264989,
+  "formulae": {
+    "claude-code": [{"cask": "claude-code", "count": "167,123"}],
+    "codex": [{"cask": "codex", "count": "72,927"}],
+    "gcloud-cli": [{"cask": "gcloud-cli", "count": "62,806"}],
+    "docker-desktop": [{"cask": "docker-desktop", "count": "55,953"}],
+    "ghostty": [{"cask": "ghostty", "count": "52,726"}]
+  }
+}

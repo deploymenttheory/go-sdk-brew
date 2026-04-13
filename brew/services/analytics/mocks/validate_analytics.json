@@ -1,0 +1,14 @@
+{
+  "category": "formula_install",
+  "total_items": 23609,
+  "start_date": "2026-03-14",
+  "end_date": "2026-04-13",
+  "total_count": 27065998,
+  "items": [
+    {"number": 1, "formula": "ca-certificates", "count": "510,810", "percent": "1.89"},
+    {"number": 2, "formula": "openssl@3", "count": "486,649", "percent": "1.80"},
+    {"number": 3, "formula": "xz", "count": "464,217", "percent": "1.72"},
+    {"number": 4, "formula": "sqlite", "count": "412,315", "percent": "1.52"},
+    {"number": 5, "formula": "zstd", "count": "350,203", "percent": "1.29"}
+  ]
+}

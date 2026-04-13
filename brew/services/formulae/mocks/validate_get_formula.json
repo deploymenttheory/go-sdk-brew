@@ -1,0 +1,102 @@
+{
+  "name": "wget",
+  "full_name": "wget",
+  "tap": "homebrew/core",
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Internet file retriever",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/wget/",
+  "versions": {"stable": "1.25.0", "head": "HEAD", "bottle": true},
+  "urls": {
+    "stable": {
+      "url": "https://ftpmirror.gnu.org/gnu/wget/wget-1.25.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784"
+    },
+    "head": {"url": "https://git.savannah.gnu.org/git/wget.git", "branch": "master", "using": null}
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "compatibility_version": 1,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget/blobs/sha256:d620e085be7df7e93c7a8e6dc98e71b7a2faedbb40e83daae9b823374ee9b09e",
+          "sha256": "d620e085be7df7e93c7a8e6dc98e71b7a2faedbb40e83daae9b823374ee9b09e"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": ["pkgconf"],
+  "dependencies": ["libidn2", "openssl@3", "gettext", "libunistring"],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "7d891c3a640b7bcae6f66eecd02e7e3203d8f73d",
+  "ruby_source_path": "Formula/w/wget.rb",
+  "ruby_source_checksum": {"sha256": "484420ad42596ede3ac90eba90c22b52ce0fc1f5a6e8f8fc2096db4c61d40e96"},
+  "head_dependencies": {
+    "build_dependencies": ["autoconf", "automake", "xz", "pkgconf"],
+    "dependencies": ["libidn2", "openssl@3", "gettext", "libunistring"],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {"wget": 27539, "wget --HEAD": 75},
+      "90d": {"wget": 85748, "wget --HEAD": 168},
+      "365d": {"wget": 452205, "wget --HEAD": 873}
+    },
+    "install_on_request": {
+      "30d": {"wget": 27191, "wget --HEAD": 75},
+      "90d": {"wget": 84481, "wget --HEAD": 168},
+      "365d": {"wget": 448468, "wget --HEAD": 873}
+    },
+    "build_error": {
+      "30d": {"wget": 14}
+    }
+  },
+  "generated_date": "2026-04-13"
+}
