@@ -6,7 +6,7 @@ require (
 	github.com/stretchr/testify v1.12.1
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.71.0
 	go.uber.org/zap v1.28.0
-	resty.dev/v3 v3.0.0-rc.3
+	resty.dev/v3 v3.0.0-rc.4
 )
 
 require (
